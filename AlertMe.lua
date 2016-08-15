@@ -5,6 +5,11 @@
 --- version codename: Replies
 ---
 --- Changelog: 
+---
+---
+---		2016-08-15
+---			- Edited wrong statement on help comment 
+---
 ---		2016-08-05
 ---			- Now checks replies 
 ---			- Now with breaklines on the alert message, for better reading
@@ -46,8 +51,8 @@
 ---
 --- This won't happen if you use a side bot, but again, you won't have the reply checking feature.
 ---
---- To disable one of the features change the value of local mcheck = "1" and local rcheck = "1"
---- To "0". mcheck= "0" disable mentions checking, rcheck = "0" disables replies checking
+--- To enable one of the features change the value of local mcheck = "1" and local rcheck = "1" They're active both by default
+--- To disable one of the features change the values to "0".Example: mcheck= "0" disable mentions checking, rcheck = "0" disables replies checking
 --- 
 
 local function run(msg)
